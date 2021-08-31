@@ -1,0 +1,23 @@
+.calculator {
+	width: 350px;
+	margin: 0 auto;
+}
+
+.result {
+	width: 96.5%;
+	height: 50px;
+	font-size: 30px;
+	padding: 1%;
+}
+
+.btn {
+	float: left;
+	height: 50px;
+	width: 33.33%;
+	cursor: pointer;
+}
+
+.btn:active {
+	transition: transform 100ms ease-in-out;
+	transform: scale(0.95);
+}
